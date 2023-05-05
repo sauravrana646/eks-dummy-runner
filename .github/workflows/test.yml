@@ -9,7 +9,7 @@ on:
 
 jobs:
   print-username:
-    runs-on: ubuntu-latest
+    runs-on: actions_runner_dev 
 
     steps:
       - name: Print the input name to STDOUT
